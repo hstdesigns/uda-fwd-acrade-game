@@ -1,6 +1,57 @@
-frontend-nanodegree-arcade-game
-===============================
+# Udacity Frontend Nanodegree Project --- Classic Arcade Game Clone
+Author: Rick
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+**Live Demo**: https://hstdesigns.github.io/uda-fwd-acrade-game/
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+**Project Submission:**
+In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the game is won.
+
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Useful Tools and Resources](#useful-tools-and-resources)
+- [Changelog](#changelog)
+
+## Features
+- game level function
+- if the player reaches the water, the level will increase
+
+## Prerequisites
+- only a web browser
+
+## Getting Started
+The easiest way to get started is to clone the repository:
+
+```bash
+# Get the latest snapshot
+git clone https://github.com/hstdesigns/uda-fwd-acrade-game.git
+
+# Change directory
+cd uda-fwd-acrade-game
+
+# Start the game
+open index.html
+```
+
+## Project Structure
+| Name                                  | Description                                                   |
+| ------------------------------------- | ------------------------------------------------------------- |
+| /                                     | Static assets (html, css, js, img)                            |
+| **js**/*.js                           | game javascript files                                         |
+| **css**/*.css                         | Main stylesheets                                              |
+| **images**/*.{gif,jpg,png}            | player and enemy images                                       |
+
+## Useful Tools and Resources
+- [DILLINGER](http://dillinger.io/) - Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor.
+
+## Changelog
+
+### 1.1.0 (July 8, 2017)
+- Final release
+- added readme
+- added some functions
+
+### 1.0.0 (July 8, 2017)
+- Initial version
