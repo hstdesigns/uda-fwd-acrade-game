@@ -1,4 +1,5 @@
-# Udacity Frontend Nanodegree Project --- Classic Arcade Game Clone
+# Udacity Frontend Nanodegree Project
+## Classic Arcade Game Clone
 Author: Rick
 
 **Live Demo**: https://hstdesigns.github.io/uda-fwd-acrade-game/
